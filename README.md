@@ -1,7 +1,7 @@
 # RAG Chatbot with Memory
 
 A simple, lightweight RAG (Retrieval-Augmented Generation) chatbot
-powered by **Groq (Llama 3.1 8B Instant)** and **LangChain**, with
+powered by **Groq** and **LangChain**, with
 support for: - Loading data from **any website URL** - Local vector
 store using **ChromaDB** - **Chat history memory** - Web scraping +
 embeddings + retrieval
