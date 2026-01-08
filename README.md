@@ -1,7 +1,7 @@
 # RAG Chatbot with Memory
 
 A simple, lightweight RAG (Retrieval-Augmented Generation) chatbot
-powered by **Groq** and **LangChain**, with
+powered by **Groq (Llama 3.1 8B Instant)** and **LangChain**, with
 support for: - Loading data from **any website URL** - Local vector
 store using **ChromaDB** - **Chat history memory** - Web scraping +
 embeddings + retrieval
@@ -14,6 +14,13 @@ embeddings + retrieval
 -   Uses Groq's fast Llama-3.1-8B-Instant model
 -   RAG pipeline built with LangChain
 -   Simple command-line chatbot
+
+## (Optional) Install and activate Python in Debian (WSL)
+
+- sudo apt update
+- sudo apt install -y python3 python3-pip python3-venv
+- python3 -m venv .venv
+- source ./.venv/bin/activate
 
 ## Dependencies
 
