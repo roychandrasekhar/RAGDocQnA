@@ -16,11 +16,12 @@ embeddings + retrieval
 -   Simple command-line chatbot
 
 ## (Optional) Install and activate Python in Debian (WSL)
-
+```
 - sudo apt update
 - sudo apt install -y python3 python3-pip python3-venv
 - python3 -m venv .venv
 - source ./.venv/bin/activate
+```
 
 ## Dependencies
 
